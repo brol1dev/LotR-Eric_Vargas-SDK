@@ -26,4 +26,4 @@ Eric Vargas, ericvargas@google.com
 
 ## License
 
-LotR-Eric_Vargas-SDK is available under the MIT license. See the LICENSE file for more info.
+LotR-Eric_Vargas-SDK is available under the Apache 2.0 license. See the LICENSE file for more info.

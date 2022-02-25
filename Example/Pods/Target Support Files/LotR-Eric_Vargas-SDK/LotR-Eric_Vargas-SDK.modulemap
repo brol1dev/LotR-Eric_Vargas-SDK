@@ -1,0 +1,6 @@
+framework module LotR_Eric_Vargas_SDK {
+  umbrella header "LotR-Eric_Vargas-SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

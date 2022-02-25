@@ -1,0 +1,22 @@
+{
+  "name": "LotR-Eric_Vargas-SDK",
+  "version": "0.1.0",
+  "summary": "A short description of LotR-Eric_Vargas-SDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Eric Vargas/LotR-Eric_Vargas-SDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Eric Vargas": "ericvargas@google.com"
+  },
+  "source": {
+    "git": "https://github.com/Eric Vargas/LotR-Eric_Vargas-SDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LotR-Eric_Vargas-SDK/Classes/**/*"
+}

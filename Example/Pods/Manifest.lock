@@ -1,0 +1,16 @@
+PODS:
+  - LotR-Eric_Vargas-SDK (0.1.0)
+
+DEPENDENCIES:
+  - LotR-Eric_Vargas-SDK (from `../`)
+
+EXTERNAL SOURCES:
+  LotR-Eric_Vargas-SDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LotR-Eric_Vargas-SDK: 24457ff21a547aa796d2d4ab9d359fd897a7418f
+
+PODFILE CHECKSUM: ec1e65ef43a53531f9cc79a64530d1e4de2d8c57
+
+COCOAPODS: 1.11.2
