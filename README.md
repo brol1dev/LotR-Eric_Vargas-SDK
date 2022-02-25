@@ -22,7 +22,7 @@ pod 'LotR-Eric_Vargas-SDK'
 
 ## Author
 
-Eric Vargas, ericvargas@google.com
+Eric Vargas
 
 ## License
 
