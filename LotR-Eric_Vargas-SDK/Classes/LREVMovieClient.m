@@ -10,7 +10,7 @@
 #import "LREVInitService.h"
 #import "LREVRequestClient.h"
 
-NSString *const kMoviesArray = @"docs";
+NSString *const kRootKey = @"docs";
 
 @implementation LREVMovieClient {
   LREVRequestClient *_requestClient;
@@ -25,14 +25,24 @@ NSString *const kMoviesArray = @"docs";
 }
 
 - (void)allMovies:(void (^)(NSArray<LREVMovie *> *, NSError *))completion {
-  [_requestClient requestEndpoint:@"movie" completionHandler:^(NSDictionary *json, NSError *error) {
+  [self allMoviesWithQueryParams:nil completion:completion];
+}
+
+- (void)allMoviesWithQueryParams:(NSString *)params
+                      completion:(void (^)(NSArray<LREVMovie *> * _Nullable, NSError * _Nullable))completion {
+  NSString *fullEndpoint = @"movie";
+  if (params) {
+    fullEndpoint = [fullEndpoint stringByAppendingFormat:@"?%@", params];
+  }
+  [_requestClient requestEndpoint:fullEndpoint
+                completionHandler:^(NSDictionary *json, NSError *error) {
     if (error) {
       completion(nil, error);
       // Log error.
       return;
     }
 
-    NSArray<NSDictionary *> *moviesJson = json[kMoviesArray];
+    NSArray<NSDictionary *> *moviesJson = json[kRootKey];
     NSMutableArray<LREVMovie *> *movies = [[NSMutableArray alloc] initWithCapacity:moviesJson.count];
     for (NSDictionary *movieDict in moviesJson) {
       LREVMovie *movie = [[LREVMovie alloc] init];
@@ -40,6 +50,60 @@ NSString *const kMoviesArray = @"docs";
       [movies addObject:movie];
     }
     completion(movies, nil);
+  }];
+}
+
+- (void)movieById:(NSString *)movieId completion:(void (^)(LREVMovie *, NSError *))completion {
+  [self movieById:movieId withQueryParams:nil completion:completion];
+}
+
+- (void)movieById:(NSString *)movieId withQueryParams:(NSString *)params
+       completion:(void (^)(LREVMovie * _Nullable, NSError * _Nullable))completion {
+  NSString *fullEndpoint = [NSString stringWithFormat:@"movie/%@", movieId];
+  if (params) {
+    fullEndpoint = [fullEndpoint stringByAppendingFormat:@"?%@", params];
+  }
+  [_requestClient requestEndpoint:fullEndpoint
+                completionHandler:^(NSDictionary *json, NSError *error) {
+    if (error) {
+      completion(nil, error);
+      // Log error.
+      return;
+    }
+
+    NSArray<NSDictionary *> *moviesJson = json[kRootKey];
+    LREVMovie *movie = [[LREVMovie alloc] init];
+    [movie parseDictionary:moviesJson[0]];
+    completion(movie, nil);
+  }];
+}
+
+- (void)movieQuotesById:(NSString *)movieId
+             completion:(nonnull void (^)(NSArray<LREVQuote *> *, NSError *))completion {
+  [self movieQuotesById:movieId withQueryParams:nil completion:completion];
+}
+
+- (void)movieQuotesById:(NSString *)movieId withQueryParams:(NSString *)params
+             completion:(void (^)(NSArray<LREVQuote *> * _Nullable, NSError * _Nullable))completion {
+  NSString *fullEndpoint = [NSString stringWithFormat:@"movie/%@/quote", movieId];
+  if (params) {
+    fullEndpoint = [fullEndpoint stringByAppendingFormat:@"?%@", params];
+  }
+  [_requestClient requestEndpoint:fullEndpoint completionHandler:^(NSDictionary *json, NSError *error) {
+    if (error) {
+      completion(nil, error);
+      // Log error.
+      return;
+    }
+
+    NSArray<NSDictionary *> *quotesJson = json[kRootKey];
+    NSMutableArray<LREVQuote *> *quotes = [[NSMutableArray alloc] initWithCapacity:quotesJson.count];
+    for (NSDictionary *quoteDict in quotesJson) {
+      LREVQuote *quote = [[LREVQuote alloc] init];
+      [quote parseDictionary:quoteDict];
+      [quotes addObject:quote];
+    }
+    completion(quotes, nil);
   }];
 }
 

@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "LREVModelParser.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -18,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, readonly) NSUInteger budgetInMillions;
 @property (nonatomic, readonly) NSUInteger rottenTomatoesScore;
 @property (nonatomic, readonly) NSUInteger runtimeInMinutes;
-@property (nonatomic, readonly) NSString *idCode;
+@property (nonatomic, readonly) NSString *movieId;
 @property (nonatomic, readonly) NSString *name;
 
 @end

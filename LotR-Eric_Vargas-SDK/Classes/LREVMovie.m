@@ -19,7 +19,7 @@ NSString *const kMovieRuntimeInMinutes = @"runtimeInMinutes";
 @implementation LREVMovie
 
 - (void)parseDictionary:(NSDictionary *)dictionary {
-  _idCode = dictionary[kMovieId];
+  _movieId = dictionary[kMovieId];
   _academyAwardNominations = [dictionary[kMovieAcademyAwardNominations] unsignedIntegerValue];
   _academyAwardWins = [dictionary[kMovieAcademyAwardWins] unsignedIntegerValue];
   _boxOfficeRevenueInMillions = [dictionary[kMovieBoxOfficeRevenueInMillions] unsignedIntegerValue];
@@ -30,7 +30,7 @@ NSString *const kMovieRuntimeInMinutes = @"runtimeInMinutes";
 }
 
 - (NSString *)description {
-  return [NSString stringWithFormat:@"Movie(id: %@): %@", _idCode, _name];
+  return [NSString stringWithFormat:@"Movie(id: %@): %@", _movieId, _name];
 }
 
 @end

@@ -14,6 +14,7 @@
 #import "LREVModelParser.h"
 #import "LREVMovie.h"
 #import "LREVMovieClient.h"
+#import "LREVQuote.h"
 #import "LREVRequestClient.h"
 
 FOUNDATION_EXPORT double LotR_Eric_Vargas_SDKVersionNumber;
