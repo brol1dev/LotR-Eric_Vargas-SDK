@@ -14,7 +14,7 @@
 {
   // Override point for customization after application launch.
   LREVInitService *service = [LREVInitService sharedInstance];
-  [service setupAPIKey:@"m0hHGrZO-Mio5KNANNR8"];
+  [service setupAPIKey:@"YOUR-API-KEY"];
   return YES;
 }
 
