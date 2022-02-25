@@ -1,6 +1,5 @@
 # LotR-Eric_Vargas-SDK
 
-[![CI Status](https://img.shields.io/travis/Eric Vargas/LotR-Eric_Vargas-SDK.svg?style=flat)](https://travis-ci.org/Eric Vargas/LotR-Eric_Vargas-SDK)
 [![Version](https://img.shields.io/cocoapods/v/LotR-Eric_Vargas-SDK.svg?style=flat)](https://cocoapods.org/pods/LotR-Eric_Vargas-SDK)
 [![License](https://img.shields.io/cocoapods/l/LotR-Eric_Vargas-SDK.svg?style=flat)](https://cocoapods.org/pods/LotR-Eric_Vargas-SDK)
 [![Platform](https://img.shields.io/cocoapods/p/LotR-Eric_Vargas-SDK.svg?style=flat)](https://cocoapods.org/pods/LotR-Eric_Vargas-SDK)
