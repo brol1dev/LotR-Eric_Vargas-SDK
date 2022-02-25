@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LotR-Eric_Vargas-SDK'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Wrapper API for https://the-one-api.dev/.'
 
 # This description is used to generate tags and improve search results.
