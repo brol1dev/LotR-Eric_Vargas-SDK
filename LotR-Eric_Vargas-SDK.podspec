@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LotR-Eric_Vargas-SDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LotR-Eric_Vargas-SDK.'
+  s.summary          = 'Wrapper API for https://the-one-api.dev/.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Wrapper API for https://the-one-api.dev/. Built for iOS.
                        DESC
 
-  s.homepage         = 'https://github.com/Eric Vargas/LotR-Eric_Vargas-SDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Eric Vargas' => 'ericvargas@google.com' }
-  s.source           = { :git => 'https://github.com/Eric Vargas/LotR-Eric_Vargas-SDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = 'https://github.com/rcvrgs/LotR-Eric_Vargas-SDK'
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
+  s.author           = { 'Eric Vargas' => 'eric.vargas.mx@gmail.com' }
+  s.source           = { :git => 'https://github.com/rcvrgs/LotR-Eric_Vargas-SDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'LotR-Eric_Vargas-SDK/Classes/**/*'
   
