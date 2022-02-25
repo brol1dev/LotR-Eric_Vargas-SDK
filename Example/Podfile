@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LotR-Eric_Vargas-SDK_Example' do
+  pod 'LotR-Eric_Vargas-SDK', :path => '../'
+
+  target 'LotR-Eric_Vargas-SDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
