@@ -16,6 +16,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 This example installs the repo from the local repository instead of fetching remotely from Cocoapods.
 
+This app currently doesn't show any UI, but shows results fetched from The One API in the Xcode console. You can modify what is called in [LREVViewController](https://github.com/rcvrgs/LotR-Eric_Vargas-SDK/blob/main/Example/LotR-Eric_Vargas-SDK/LREVViewController.m).
+
 ## Installation
 
 LotR-Eric_Vargas-SDK is available through [CocoaPods](https://cocoapods.org). To install
