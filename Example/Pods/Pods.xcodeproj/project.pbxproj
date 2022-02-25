@@ -7,30 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5FE021616D0522E66C1FE12BA0FF9C /* LotR-Eric_Vargas-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4559A7D4018370C9B52B7A4BBE91A103 /* LotR-Eric_Vargas-SDK-dummy.m */; };
 		1403F4B99ABD62BC89997F0ABA88AE56 /* Pods-LotR-Eric_Vargas-SDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B932F8916C96D44F69FB2B96E70B0611 /* Pods-LotR-Eric_Vargas-SDK_Tests-dummy.m */; };
-		4DB6CABD908D2ECF415FFF58AA86651B /* LREVInitService.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CBFFD18B4D494824B299023D1253F0 /* LREVInitService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33133ADBCF30D4A7CA65297A623BCC54 /* LREVMovie.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE76A40CBA5E8D04DF4C24C2981E20A /* LREVMovie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453C7A7CD78FC6C55C7D77A1E5FB402F /* LREVMovieClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D34293FA8B6BAC4597502AC8D2AC5A /* LREVMovieClient.m */; };
+		56AB0C136962CEABFE09436169892A67 /* LotR-Eric_Vargas-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF0E928BDE07EA7E19BF5C4EF9A9BB0 /* LotR-Eric_Vargas-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AF722C4D0F4425EC4B5B5958512B79D /* LREVRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 935F16E2BCD01F7F0DB6C519E0B321E6 /* LREVRequestClient.m */; };
 		63CC8833B859F83F6F6F92D6F3AC8FD9 /* Pods-LotR-Eric_Vargas-SDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E3F350DD26F3EF39F517C03234F8B09 /* Pods-LotR-Eric_Vargas-SDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67FC2C87CDA5ED0BBF7BD175C0442038 /* Pods-LotR-Eric_Vargas-SDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D800E4F64F4D65045840FB17DF822A /* Pods-LotR-Eric_Vargas-SDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68D6ABA81E9258DEF6423C0FE8FD0A3C /* LREVRequestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 36566A2CAFDA523701519AC5EE61AB4F /* LREVRequestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C23D07D3343332D0A1DF9FC389C6363 /* LREVModelParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 27563C5B3CCA8BC7404B9C0369E2E336 /* LREVModelParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		789B0D5E13B36BBCCBF874AE317A31B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8B892E7DEB138FF1CD480DA95806819E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8CA3D0095D53CC96BCE2839B792EE154 /* Pods-LotR-Eric_Vargas-SDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 991396D8165BC446B36509AE440963D8 /* Pods-LotR-Eric_Vargas-SDK_Example-dummy.m */; };
-		A26DD0DAFE78D3AC5519ECEB6F8F87B6 /* LREVRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E507B891288186501A183DB11652F7 /* LREVRequestClient.m */; };
-		E309F4232AB111F9DE1C4E7E0A1FBEDC /* LREVInitService.m in Sources */ = {isa = PBXBuildFile; fileRef = D327E57D89DA538EE09601D9F0C797E7 /* LREVInitService.m */; };
-		EE7DBAFAB589FAFE725E6DD02D30C923 /* LotR-Eric_Vargas-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB009A389777854C60F0B8186727F0A5 /* LotR-Eric_Vargas-SDK-dummy.m */; };
-		F01FC1AEDFC0A61F56B92198A2DF520E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		93BD44007CED8292FA0C5E906D94FB05 /* LREVRequestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CF59DB085A3349FB1DBB04F579B13A14 /* LREVRequestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A3958066664587C3B7B4DB0B40C6B7 /* LREVMovieClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3BB3859981C5B1536302D077E593A9 /* LREVMovieClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD5D2E5AB90EC6145755FE81D659A564 /* LREVMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E199798ED969D53F018CCEA5ED2E0 /* LREVMovie.m */; };
+		C7715A5E8E565E0EC6084538BB24E791 /* LREVInitService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0362F45F3C3CE5FF72F9CEBF0D9BD16F /* LREVInitService.m */; };
 		F78672537BE0CA7BACC6F21CD54F2302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FD9264C34252F70FFF48BD2C94B6EB0B /* LotR-Eric_Vargas-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2971DB1E89F4C865D994C5433EC78092 /* LotR-Eric_Vargas-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD92CB5525D100411E7FEEF857879338 /* LREVInitService.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9C70EC9D45D6833F5794C52A4ECC91 /* LREVInitService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B420FC7D42B74F50E3E9B93495FA87E0 /* PBXContainerItemProxy */ = {
+		194B2194E75F14CED85430E83EBF8553 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AADFF266F363D052F7BD54B9509494FA;
 			remoteInfo = "LotR-Eric_Vargas-SDK";
 		};
-		FB8FE4D0B2E727B624A2A666D20FDD93 /* PBXContainerItemProxy */ = {
+		27BB9285DC83A5F85D2BAB72BA2B7F6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -40,45 +45,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02E175D38F182FB0668424A9DCB14B99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0362F45F3C3CE5FF72F9CEBF0D9BD16F /* LREVInitService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVInitService.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVInitService.m"; sourceTree = "<group>"; };
 		050B08185F27561ACADB5EBF2ED0384A /* Pods-LotR-Eric_Vargas-SDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LotR-Eric_Vargas-SDK_Example-Info.plist"; sourceTree = "<group>"; };
-		0B9BBC0672A91B8931EE3B9CEBD35F6C /* LotR-Eric_Vargas-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LotR-Eric_Vargas-SDK-prefix.pch"; sourceTree = "<group>"; };
-		0BFD97B22B1A35AEB8958686530D8F7B /* LotR-Eric_Vargas-SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LotR-Eric_Vargas-SDK.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0C12420275A79648CBAF0596CEB0BB31 /* Pods-LotR-Eric_Vargas-SDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LotR-Eric_Vargas-SDK_Example"; path = Pods_LotR_Eric_Vargas_SDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BD8C78EBDD533B84C06BD41FA6AC7A6 /* Pods-LotR-Eric_Vargas-SDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LotR-Eric_Vargas-SDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D9C70EC9D45D6833F5794C52A4ECC91 /* LREVInitService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LREVInitService.h; path = "LotR-Eric_Vargas-SDK/Classes/LREVInitService.h"; sourceTree = "<group>"; };
 		1FEC0D1E195668BC2E0FA7490C281F61 /* Pods-LotR-Eric_Vargas-SDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LotR-Eric_Vargas-SDK_Example.modulemap"; sourceTree = "<group>"; };
+		27563C5B3CCA8BC7404B9C0369E2E336 /* LREVModelParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LREVModelParser.h; path = "LotR-Eric_Vargas-SDK/Classes/LREVModelParser.h"; sourceTree = "<group>"; };
 		28D800E4F64F4D65045840FB17DF822A /* Pods-LotR-Eric_Vargas-SDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LotR-Eric_Vargas-SDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		2971DB1E89F4C865D994C5433EC78092 /* LotR-Eric_Vargas-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LotR-Eric_Vargas-SDK-umbrella.h"; sourceTree = "<group>"; };
-		36566A2CAFDA523701519AC5EE61AB4F /* LREVRequestClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LREVRequestClient.h; path = "LotR-Eric_Vargas-SDK/Classes/LREVRequestClient.h"; sourceTree = "<group>"; };
-		45E65B58E9032D0A55F79CCF088B73BB /* LotR-Eric_Vargas-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LotR-Eric_Vargas-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		41D34293FA8B6BAC4597502AC8D2AC5A /* LREVMovieClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVMovieClient.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVMovieClient.m"; sourceTree = "<group>"; };
+		4559A7D4018370C9B52B7A4BBE91A103 /* LotR-Eric_Vargas-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LotR-Eric_Vargas-SDK-dummy.m"; sourceTree = "<group>"; };
 		4E3F350DD26F3EF39F517C03234F8B09 /* Pods-LotR-Eric_Vargas-SDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LotR-Eric_Vargas-SDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		559257D9A3417F01FE2EE1A78186E55A /* LotR-Eric_Vargas-SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "LotR-Eric_Vargas-SDK.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5EFB65ACCADF9F98739F5F06F886D4A0 /* LotR-Eric_Vargas-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LotR-Eric_Vargas-SDK-prefix.pch"; sourceTree = "<group>"; };
+		5FF0E928BDE07EA7E19BF5C4EF9A9BB0 /* LotR-Eric_Vargas-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LotR-Eric_Vargas-SDK-umbrella.h"; sourceTree = "<group>"; };
+		63C31D88BFA7B09C02F3726D962A064E /* LotR-Eric_Vargas-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LotR-Eric_Vargas-SDK.modulemap"; sourceTree = "<group>"; };
 		71235326D7F0A900D7B9A79306C1BBFC /* Pods-LotR-Eric_Vargas-SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LotR-Eric_Vargas-SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76DF60BA76ADCDEC51AC830F25644A7E /* LotR-Eric_Vargas-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LotR-Eric_Vargas-SDK-Info.plist"; sourceTree = "<group>"; };
 		824D9F72A56422F4ADD054C7591FB493 /* Pods-LotR-Eric_Vargas-SDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LotR-Eric_Vargas-SDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8FAA607954CC5D5C2AB0849F56F7324F /* Pods-LotR-Eric_Vargas-SDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LotR-Eric_Vargas-SDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		90DFCD99879D4D77FF189A6996C33F2A /* LotR-Eric_Vargas-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LotR-Eric_Vargas-SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		935F16E2BCD01F7F0DB6C519E0B321E6 /* LREVRequestClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVRequestClient.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVRequestClient.m"; sourceTree = "<group>"; };
 		96388B66EDA93709DC2019846A703204 /* Pods-LotR-Eric_Vargas-SDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LotR-Eric_Vargas-SDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		991396D8165BC446B36509AE440963D8 /* Pods-LotR-Eric_Vargas-SDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LotR-Eric_Vargas-SDK_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7E507B891288186501A183DB11652F7 /* LREVRequestClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVRequestClient.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVRequestClient.m"; sourceTree = "<group>"; };
+		9E3BB3859981C5B1536302D077E593A9 /* LREVMovieClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LREVMovieClient.h; path = "LotR-Eric_Vargas-SDK/Classes/LREVMovieClient.h"; sourceTree = "<group>"; };
+		A02BFD1F599CE9EB717D3CB0BF25CCB8 /* LotR-Eric_Vargas-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LotR-Eric_Vargas-SDK-Info.plist"; sourceTree = "<group>"; };
 		B5D6654A7CAC58C0C5DC58E229006A2D /* Pods-LotR-Eric_Vargas-SDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LotR-Eric_Vargas-SDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B79D3F44E3BF2F745083BBC098CA79A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B932F8916C96D44F69FB2B96E70B0611 /* Pods-LotR-Eric_Vargas-SDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LotR-Eric_Vargas-SDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		BCB41D72B5CB35039465457C37575179 /* Pods-LotR-Eric_Vargas-SDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LotR-Eric_Vargas-SDK_Tests.modulemap"; sourceTree = "<group>"; };
 		C2A8DA57F971028356965917947C6999 /* LotR-Eric_Vargas-SDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "LotR-Eric_Vargas-SDK"; path = LotR_Eric_Vargas_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C514F727E64DCFE212D74649EDDA4BC8 /* Pods-LotR-Eric_Vargas-SDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LotR-Eric_Vargas-SDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC0B942718883E11A4C648EC442EFA2B /* Pods-LotR-Eric_Vargas-SDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LotR-Eric_Vargas-SDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D327E57D89DA538EE09601D9F0C797E7 /* LREVInitService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVInitService.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVInitService.m"; sourceTree = "<group>"; };
-		D5CBFFD18B4D494824B299023D1253F0 /* LREVInitService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LREVInitService.h; path = "LotR-Eric_Vargas-SDK/Classes/LREVInitService.h"; sourceTree = "<group>"; };
+		CF59DB085A3349FB1DBB04F579B13A14 /* LREVRequestClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LREVRequestClient.h; path = "LotR-Eric_Vargas-SDK/Classes/LREVRequestClient.h"; sourceTree = "<group>"; };
 		D9BE9052C910B7F3940EB1D6105E0F53 /* Pods-LotR-Eric_Vargas-SDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LotR-Eric_Vargas-SDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		DB009A389777854C60F0B8186727F0A5 /* LotR-Eric_Vargas-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LotR-Eric_Vargas-SDK-dummy.m"; sourceTree = "<group>"; };
-		DB947529B8D6D57F418CF7DF1B2D74C9 /* LotR-Eric_Vargas-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LotR-Eric_Vargas-SDK.release.xcconfig"; sourceTree = "<group>"; };
+		DC9E199798ED969D53F018CCEA5ED2E0 /* LREVMovie.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVMovie.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVMovie.m"; sourceTree = "<group>"; };
+		DD0E7DB971E934424E9B035711AF03F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DFE76A40CBA5E8D04DF4C24C2981E20A /* LREVMovie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LREVMovie.h; path = "LotR-Eric_Vargas-SDK/Classes/LREVMovie.h"; sourceTree = "<group>"; };
 		E48660D8980C18C334E8D74940C88579 /* Pods-LotR-Eric_Vargas-SDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LotR-Eric_Vargas-SDK_Tests"; path = Pods_LotR_Eric_Vargas_SDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAFFC1887F5ABDB516BE27B885F4E3D3 /* LotR-Eric_Vargas-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "LotR-Eric_Vargas-SDK.modulemap"; sourceTree = "<group>"; };
 		ECF12B941F72EE476792A2E145245100 /* Pods-LotR-Eric_Vargas-SDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LotR-Eric_Vargas-SDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6E0862BF798AF1AA0674B28CF56DEC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FA5B962DF01FCD42663EF56B2F6027D2 /* LotR-Eric_Vargas-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LotR-Eric_Vargas-SDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9015B7C8E08BC3082C2C38E27CE83A2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B892E7DEB138FF1CD480DA95806819E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DAC5BE2D61F66799FB450E3461408C49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,14 +113,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDE142A14C9454D7D01733FD43515CBF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F01FC1AEDFC0A61F56B92198A2DF520E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -116,16 +126,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D34828BAB37E8C6C1198147274043EC /* Support Files */ = {
+		21FDA45BCA6B7C49917395D6BE5D1F34 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAFFC1887F5ABDB516BE27B885F4E3D3 /* LotR-Eric_Vargas-SDK.modulemap */,
-				DB009A389777854C60F0B8186727F0A5 /* LotR-Eric_Vargas-SDK-dummy.m */,
-				76DF60BA76ADCDEC51AC830F25644A7E /* LotR-Eric_Vargas-SDK-Info.plist */,
-				0B9BBC0672A91B8931EE3B9CEBD35F6C /* LotR-Eric_Vargas-SDK-prefix.pch */,
-				2971DB1E89F4C865D994C5433EC78092 /* LotR-Eric_Vargas-SDK-umbrella.h */,
-				45E65B58E9032D0A55F79CCF088B73BB /* LotR-Eric_Vargas-SDK.debug.xcconfig */,
-				DB947529B8D6D57F418CF7DF1B2D74C9 /* LotR-Eric_Vargas-SDK.release.xcconfig */,
+				63C31D88BFA7B09C02F3726D962A064E /* LotR-Eric_Vargas-SDK.modulemap */,
+				4559A7D4018370C9B52B7A4BBE91A103 /* LotR-Eric_Vargas-SDK-dummy.m */,
+				A02BFD1F599CE9EB717D3CB0BF25CCB8 /* LotR-Eric_Vargas-SDK-Info.plist */,
+				5EFB65ACCADF9F98739F5F06F886D4A0 /* LotR-Eric_Vargas-SDK-prefix.pch */,
+				5FF0E928BDE07EA7E19BF5C4EF9A9BB0 /* LotR-Eric_Vargas-SDK-umbrella.h */,
+				90DFCD99879D4D77FF189A6996C33F2A /* LotR-Eric_Vargas-SDK.debug.xcconfig */,
+				FA5B962DF01FCD42663EF56B2F6027D2 /* LotR-Eric_Vargas-SDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LotR-Eric_Vargas-SDK";
@@ -164,12 +174,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		8704A2F57D5F1B117EF4E0934A1C7C00 /* Development Pods */ = {
+		839C0A07D74694BE185656576188EAF2 /* LotR-Eric_Vargas-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				F7E92830873B45424959CB9FBF3E3FA4 /* LotR-Eric_Vargas-SDK */,
+				1D9C70EC9D45D6833F5794C52A4ECC91 /* LREVInitService.h */,
+				0362F45F3C3CE5FF72F9CEBF0D9BD16F /* LREVInitService.m */,
+				27563C5B3CCA8BC7404B9C0369E2E336 /* LREVModelParser.h */,
+				DFE76A40CBA5E8D04DF4C24C2981E20A /* LREVMovie.h */,
+				DC9E199798ED969D53F018CCEA5ED2E0 /* LREVMovie.m */,
+				9E3BB3859981C5B1536302D077E593A9 /* LREVMovieClient.h */,
+				41D34293FA8B6BAC4597502AC8D2AC5A /* LREVMovieClient.m */,
+				CF59DB085A3349FB1DBB04F579B13A14 /* LREVRequestClient.h */,
+				935F16E2BCD01F7F0DB6C519E0B321E6 /* LREVRequestClient.m */,
+				C6B70E592FBE73167844BCEC53080FD9 /* Pod */,
+				21FDA45BCA6B7C49917395D6BE5D1F34 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = "LotR-Eric_Vargas-SDK";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B71AC5718005973D8423C196D7C97013 /* Pods-LotR-Eric_Vargas-SDK_Example */ = {
@@ -189,12 +210,12 @@
 			path = "Target Support Files/Pods-LotR-Eric_Vargas-SDK_Example";
 			sourceTree = "<group>";
 		};
-		C600C99C47845A4B5ECAF8FB87399E26 /* Pod */ = {
+		C6B70E592FBE73167844BCEC53080FD9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B79D3F44E3BF2F745083BBC098CA79A6 /* LICENSE */,
-				0BFD97B22B1A35AEB8958686530D8F7B /* LotR-Eric_Vargas-SDK.podspec */,
-				02E175D38F182FB0668424A9DCB14B99 /* README.md */,
+				F6E0862BF798AF1AA0674B28CF56DEC4 /* LICENSE */,
+				559257D9A3417F01FE2EE1A78186E55A /* LotR-Eric_Vargas-SDK.podspec */,
+				DD0E7DB971E934424E9B035711AF03F5 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -203,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8704A2F57D5F1B117EF4E0934A1C7C00 /* Development Pods */,
+				E9AD6AB20C26536590E445D95903C508 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				21282C3B6473DC58C39D4E4576D15582 /* Products */,
 				74FACB3444130F949AD8F23F082103A4 /* Targets Support Files */,
@@ -218,18 +239,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7E92830873B45424959CB9FBF3E3FA4 /* LotR-Eric_Vargas-SDK */ = {
+		E9AD6AB20C26536590E445D95903C508 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D5CBFFD18B4D494824B299023D1253F0 /* LREVInitService.h */,
-				D327E57D89DA538EE09601D9F0C797E7 /* LREVInitService.m */,
-				36566A2CAFDA523701519AC5EE61AB4F /* LREVRequestClient.h */,
-				A7E507B891288186501A183DB11652F7 /* LREVRequestClient.m */,
-				C600C99C47845A4B5ECAF8FB87399E26 /* Pod */,
-				2D34828BAB37E8C6C1198147274043EC /* Support Files */,
+				839C0A07D74694BE185656576188EAF2 /* LotR-Eric_Vargas-SDK */,
 			);
-			name = "LotR-Eric_Vargas-SDK";
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,13 +266,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD6ECBB105D39E86AE51A62DEA06C202 /* Headers */ = {
+		DB481A9A2F8DE3FBFE97D5153E8BB39A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9264C34252F70FFF48BD2C94B6EB0B /* LotR-Eric_Vargas-SDK-umbrella.h in Headers */,
-				4DB6CABD908D2ECF415FFF58AA86651B /* LREVInitService.h in Headers */,
-				68D6ABA81E9258DEF6423C0FE8FD0A3C /* LREVRequestClient.h in Headers */,
+				56AB0C136962CEABFE09436169892A67 /* LotR-Eric_Vargas-SDK-umbrella.h in Headers */,
+				FD92CB5525D100411E7FEEF857879338 /* LREVInitService.h in Headers */,
+				6C23D07D3343332D0A1DF9FC389C6363 /* LREVModelParser.h in Headers */,
+				33133ADBCF30D4A7CA65297A623BCC54 /* LREVMovie.h in Headers */,
+				A1A3958066664587C3B7B4DB0B40C6B7 /* LREVMovieClient.h in Headers */,
+				93BD44007CED8292FA0C5E906D94FB05 /* LREVRequestClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +294,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B78648EC7AD517EB1CD12E1A6DEB490F /* PBXTargetDependency */,
+				F891E52EB5EA06786676C5FDF62A0A9B /* PBXTargetDependency */,
 			);
 			name = "Pods-LotR-Eric_Vargas-SDK_Example";
 			productName = Pods_LotR_Eric_Vargas_SDK_Example;
@@ -295,7 +313,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D01E87533B42382598DA51E6B7E486CF /* PBXTargetDependency */,
+				A4377597C4FBE6830CDFBC98EB032C37 /* PBXTargetDependency */,
 			);
 			name = "Pods-LotR-Eric_Vargas-SDK_Tests";
 			productName = Pods_LotR_Eric_Vargas_SDK_Tests;
@@ -304,12 +322,12 @@
 		};
 		AADFF266F363D052F7BD54B9509494FA /* LotR-Eric_Vargas-SDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3283BF90BA623CDA333DDE00FF45A495 /* Build configuration list for PBXNativeTarget "LotR-Eric_Vargas-SDK" */;
+			buildConfigurationList = EFBFB9BB0AB27986C439BC2F0370B515 /* Build configuration list for PBXNativeTarget "LotR-Eric_Vargas-SDK" */;
 			buildPhases = (
-				BD6ECBB105D39E86AE51A62DEA06C202 /* Headers */,
-				83597A54D16240F1AB3B81E526EE32C9 /* Sources */,
-				FDE142A14C9454D7D01733FD43515CBF /* Frameworks */,
-				CB3DC341BFA72BF2774521C6CE2CF962 /* Resources */,
+				DB481A9A2F8DE3FBFE97D5153E8BB39A /* Headers */,
+				EF03A6A3572A3CCD12C986543B828781 /* Sources */,
+				9015B7C8E08BC3082C2C38E27CE83A2F /* Frameworks */,
+				A2993C144212A1FCC56D3E930FA5C35B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -364,7 +382,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB3DC341BFA72BF2774521C6CE2CF962 /* Resources */ = {
+		A2993C144212A1FCC56D3E930FA5C35B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -390,30 +408,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83597A54D16240F1AB3B81E526EE32C9 /* Sources */ = {
+		EF03A6A3572A3CCD12C986543B828781 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7DBAFAB589FAFE725E6DD02D30C923 /* LotR-Eric_Vargas-SDK-dummy.m in Sources */,
-				E309F4232AB111F9DE1C4E7E0A1FBEDC /* LREVInitService.m in Sources */,
-				A26DD0DAFE78D3AC5519ECEB6F8F87B6 /* LREVRequestClient.m in Sources */,
+				0E5FE021616D0522E66C1FE12BA0FF9C /* LotR-Eric_Vargas-SDK-dummy.m in Sources */,
+				C7715A5E8E565E0EC6084538BB24E791 /* LREVInitService.m in Sources */,
+				BD5D2E5AB90EC6145755FE81D659A564 /* LREVMovie.m in Sources */,
+				453C7A7CD78FC6C55C7D77A1E5FB402F /* LREVMovieClient.m in Sources */,
+				5AF722C4D0F4425EC4B5B5958512B79D /* LREVRequestClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B78648EC7AD517EB1CD12E1A6DEB490F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "LotR-Eric_Vargas-SDK";
-			target = AADFF266F363D052F7BD54B9509494FA /* LotR-Eric_Vargas-SDK */;
-			targetProxy = B420FC7D42B74F50E3E9B93495FA87E0 /* PBXContainerItemProxy */;
-		};
-		D01E87533B42382598DA51E6B7E486CF /* PBXTargetDependency */ = {
+		A4377597C4FBE6830CDFBC98EB032C37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LotR-Eric_Vargas-SDK_Example";
 			target = 30571D524BF146EEE282C6C85510A6EE /* Pods-LotR-Eric_Vargas-SDK_Example */;
-			targetProxy = FB8FE4D0B2E727B624A2A666D20FDD93 /* PBXContainerItemProxy */;
+			targetProxy = 27BB9285DC83A5F85D2BAB72BA2B7F6D /* PBXContainerItemProxy */;
+		};
+		F891E52EB5EA06786676C5FDF62A0A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LotR-Eric_Vargas-SDK";
+			target = AADFF266F363D052F7BD54B9509494FA /* LotR-Eric_Vargas-SDK */;
+			targetProxy = 194B2194E75F14CED85430E83EBF8553 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -554,39 +574,6 @@
 			};
 			name = Release;
 		};
-		52FD2E1301042856C53DF413F2D63E6F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB947529B8D6D57F418CF7DF1B2D74C9 /* LotR-Eric_Vargas-SDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LotR-Eric_Vargas-SDK/LotR-Eric_Vargas-SDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LotR-Eric_Vargas-SDK/LotR-Eric_Vargas-SDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LotR-Eric_Vargas-SDK/LotR-Eric_Vargas-SDK.modulemap";
-				PRODUCT_MODULE_NAME = LotR_Eric_Vargas_SDK;
-				PRODUCT_NAME = LotR_Eric_Vargas_SDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5E5965CB73532EE4C0D395B5D7CFC9EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5D6654A7CAC58C0C5DC58E229006A2D /* Pods-LotR-Eric_Vargas-SDK_Example.debug.xcconfig */;
@@ -717,9 +704,9 @@
 			};
 			name = Release;
 		};
-		FCBF9177DEC52C11992E81F0A9A8088A /* Debug */ = {
+		B998DB2A6DEB40E9F02A3BB0F425A9A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E65B58E9032D0A55F79CCF088B73BB /* LotR-Eric_Vargas-SDK.debug.xcconfig */;
+			baseConfigurationReference = 90DFCD99879D4D77FF189A6996C33F2A /* LotR-Eric_Vargas-SDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -749,6 +736,39 @@
 			};
 			name = Debug;
 		};
+		BBEF6E2F45A06B524B6439CFC3DE0C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5B962DF01FCD42663EF56B2F6027D2 /* LotR-Eric_Vargas-SDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LotR-Eric_Vargas-SDK/LotR-Eric_Vargas-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LotR-Eric_Vargas-SDK/LotR-Eric_Vargas-SDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LotR-Eric_Vargas-SDK/LotR-Eric_Vargas-SDK.modulemap";
+				PRODUCT_MODULE_NAME = LotR_Eric_Vargas_SDK;
+				PRODUCT_NAME = LotR_Eric_Vargas_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -757,15 +777,6 @@
 			buildConfigurations = (
 				60505928133D172A9947FE47F3C69655 /* Debug */,
 				1B4CFD2BDC54700C4ADC5FFB17ADABD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3283BF90BA623CDA333DDE00FF45A495 /* Build configuration list for PBXNativeTarget "LotR-Eric_Vargas-SDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FCBF9177DEC52C11992E81F0A9A8088A /* Debug */,
-				52FD2E1301042856C53DF413F2D63E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -784,6 +795,15 @@
 			buildConfigurations = (
 				5E5965CB73532EE4C0D395B5D7CFC9EE /* Debug */,
 				41FB49DB57C060EEA0F8F9136ED0A58A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBFB9BB0AB27986C439BC2F0370B515 /* Build configuration list for PBXNativeTarget "LotR-Eric_Vargas-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B998DB2A6DEB40E9F02A3BB0F425A9A2 /* Debug */,
+				BBEF6E2F45A06B524B6439CFC3DE0C5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -17,10 +17,9 @@
 - (void)viewDidLoad
 {
   [super viewDidLoad];
-  LREVRequestClient *client = [[LREVRequestClient alloc] initWithApiKey:[LREVInitService sharedInstance].apiKey];
-  [client requestEndpoint:@"movie/5cd95395de30eff6ebccde5c" completionHandler:^(NSDictionary *json, NSError *error) {
-    NSLog(@"error: %@", error);
-    NSLog(@"json: %@", json);
+  LREVMovieClient *client = [[LREVMovieClient alloc] init];
+  [client allMovies:^(NSArray<LREVMovie *> *movies, NSError *error) {
+    NSLog(@"movies: %@", movies);
   }];
 }
 

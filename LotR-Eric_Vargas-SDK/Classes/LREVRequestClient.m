@@ -10,8 +10,9 @@
 NSString *const kBaseUrl = @"https://the-one-api.dev/v2/";
 
 @implementation LREVRequestClient {
-  NSURL *_baseUrl;
   NSString *_apiKey;
+  NSURL *_baseUrl;
+  NSURLSession *_session;
 }
 
 - (instancetype)initWithApiKey:(NSString *)apiKey {
@@ -19,6 +20,8 @@ NSString *const kBaseUrl = @"https://the-one-api.dev/v2/";
   if (self) {
     _apiKey = apiKey;
     _baseUrl = [NSURL URLWithString:kBaseUrl];
+    NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
+    _session = [NSURLSession sessionWithConfiguration:sessionConfig];
   }
   return self;
 }
@@ -29,9 +32,7 @@ NSString *const kBaseUrl = @"https://the-one-api.dev/v2/";
 
   [request setValue:[NSString stringWithFormat:@"Bearer %@", _apiKey] forHTTPHeaderField:@"Authorization"];
 
-  NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
-  NSURLSession *session = [NSURLSession sessionWithConfiguration:sessionConfig];
-  NSURLSessionTask *sessionTask = [session dataTaskWithRequest:request
+  NSURLSessionTask *sessionTask = [_session dataTaskWithRequest:request
                                              completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
     if (error) {
       completion(nil, error);
