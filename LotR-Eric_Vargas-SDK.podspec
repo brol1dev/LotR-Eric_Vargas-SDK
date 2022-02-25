@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Eric Vargas' => 'eric.vargas.mx@gmail.com' }
   s.source           = { :git => 'https://github.com/rcvrgs/LotR-Eric_Vargas-SDK.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'LotR-Eric_Vargas-SDK/Classes/**/*'
   

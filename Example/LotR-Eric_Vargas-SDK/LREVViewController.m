@@ -16,14 +16,12 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super viewDidLoad];
+  LREVRequestClient *client = [[LREVRequestClient alloc] initWithApiKey:[LREVInitService sharedInstance].apiKey];
+  [client requestEndpoint:@"movie/5cd95395de30eff6ebccde5c" completionHandler:^(NSDictionary *json, NSError *error) {
+    NSLog(@"error: %@", error);
+    NSLog(@"json: %@", json);
+  }];
 }
 
 @end

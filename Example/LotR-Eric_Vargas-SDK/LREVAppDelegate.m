@@ -12,8 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+  // Override point for customization after application launch.
+  LREVInitService *service = [LREVInitService sharedInstance];
+  [service setupAPIKey:@"m0hHGrZO-Mio5KNANNR8"];
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

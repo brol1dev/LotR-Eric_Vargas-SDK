@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+@import LotR_Eric_Vargas_SDK;
 
 @interface LREVAppDelegate : UIResponder <UIApplicationDelegate>
 

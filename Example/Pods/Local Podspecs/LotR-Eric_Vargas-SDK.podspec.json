@@ -1,22 +1,22 @@
 {
   "name": "LotR-Eric_Vargas-SDK",
   "version": "0.1.0",
-  "summary": "A short description of LotR-Eric_Vargas-SDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Eric Vargas/LotR-Eric_Vargas-SDK",
+  "summary": "Wrapper API for https://the-one-api.dev/.",
+  "description": "Wrapper API for https://the-one-api.dev/. Built for iOS.",
+  "homepage": "https://github.com/rcvrgs/LotR-Eric_Vargas-SDK",
   "license": {
-    "type": "MIT",
+    "type": "Apache 2.0",
     "file": "LICENSE"
   },
   "authors": {
-    "Eric Vargas": "ericvargas@google.com"
+    "Eric Vargas": "eric.vargas.mx@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Eric Vargas/LotR-Eric_Vargas-SDK.git",
+    "git": "https://github.com/rcvrgs/LotR-Eric_Vargas-SDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "12.0"
   },
   "source_files": "LotR-Eric_Vargas-SDK/Classes/**/*"
 }
