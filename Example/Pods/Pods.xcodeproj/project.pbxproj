@@ -59,6 +59,7 @@
 		4E3F350DD26F3EF39F517C03234F8B09 /* Pods-LotR-Eric_Vargas-SDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LotR-Eric_Vargas-SDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5971B37616A5D14DDFFD4F30380C4C8B /* LotR-Eric_Vargas-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LotR-Eric_Vargas-SDK-prefix.pch"; sourceTree = "<group>"; };
 		5A26E77D0CCEE193CF167C33CD3199FF /* LREVQuote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVQuote.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVQuote.m"; sourceTree = "<group>"; };
+		60A6C79327C8D934001E4640 /* DESIGN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DESIGN.md; sourceTree = "<group>"; };
 		62788A5987542EEC9E3B39BC0DD936DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		71235326D7F0A900D7B9A79306C1BBFC /* Pods-LotR-Eric_Vargas-SDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LotR-Eric_Vargas-SDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -228,6 +229,7 @@
 				62788A5987542EEC9E3B39BC0DD936DA /* LICENSE */,
 				FE7C321915974BEEF13D40FCFE393973 /* LotR-Eric_Vargas-SDK.podspec */,
 				FA398515C130DE653D61CADB5EB52DEB /* README.md */,
+				60A6C79327C8D934001E4640 /* DESIGN.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
