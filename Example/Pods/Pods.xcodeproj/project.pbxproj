@@ -89,7 +89,7 @@
 		F21BECB1BBDF00C05360E67FE5E88FDB /* LREVRequestClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LREVRequestClient.m; path = "LotR-Eric_Vargas-SDK/Classes/LREVRequestClient.m"; sourceTree = "<group>"; };
 		F4C04771481B6389AA398FC24FF64E52 /* LotR-Eric_Vargas-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LotR-Eric_Vargas-SDK-dummy.m"; sourceTree = "<group>"; };
 		FA398515C130DE653D61CADB5EB52DEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FE7C321915974BEEF13D40FCFE393973 /* LotR-Eric_Vargas-SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "LotR-Eric_Vargas-SDK.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE7C321915974BEEF13D40FCFE393973 /* LotR-Eric_Vargas-SDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "LotR-Eric_Vargas-SDK.podspec"; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
